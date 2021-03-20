@@ -149,6 +149,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libqservice.so:system/lib/libqservice.so \
     vendor/amazon/sloane/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/amazon/sloane/proprietary/lib/libstagefright_hdcprx.so:system/lib/libstagefright_hdcprx.so \
+    vendor/amazon/sloane/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/amazon/sloane/proprietary/lib/libthermalservice.so:system/lib/libthermalservice.so \
     vendor/amazon/sloane/proprietary/lib/libtrapz.so:system/lib/libtrapz.so \
     vendor/amazon/sloane/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
@@ -219,6 +220,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libqservice.so:system/lib64/libqservice.so \
     vendor/amazon/sloane/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
     vendor/amazon/sloane/proprietary/lib64/libstagefright_hdcprx.so:system/lib64/libstagefright_hdcprx.so \
+    vendor/amazon/sloane/proprietary/lib64/libstlport.so:system/lib64/libstlport.so \
     vendor/amazon/sloane/proprietary/lib64/libthermalservice.so:system/lib64/libthermalservice.so \
     vendor/amazon/sloane/proprietary/lib64/libtrapz.so:system/lib64/libtrapz.so \
     vendor/amazon/sloane/proprietary/lib64/libtz_uree.so:system/lib64/libtz_uree.so \
