@@ -292,4 +292,6 @@ PRODUCT_PACKAGES += \
     libdpframework \
     libnvram \
     libaudiocustparam \
-    libion_mtk
+    libion_mtk \
+    libcam.client \
+    libcam_utils
