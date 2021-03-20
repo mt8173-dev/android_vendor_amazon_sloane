@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libamr_wrap.so:system/lib/libamr_wrap.so \
     vendor/amazon/sloane/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/amazon/sloane/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
-    vendor/amazon/sloane/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     vendor/amazon/sloane/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/amazon/sloane/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/amazon/sloane/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
@@ -132,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
     vendor/amazon/sloane/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
     vendor/amazon/sloane/proprietary/lib/libhdmiservice.so:system/lib/libhdmiservice.so \
-    vendor/amazon/sloane/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/amazon/sloane/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/amazon/sloane/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/amazon/sloane/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
@@ -141,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/amazon/sloane/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/amazon/sloane/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
-    vendor/amazon/sloane/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/amazon/sloane/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/amazon/sloane/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/amazon/sloane/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
@@ -188,7 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libamazonwifiservice.so:system/lib64/libamazonwifiservice.so \
     vendor/amazon/sloane/proprietary/lib64/libaudiocompensationfilter.so:system/lib64/libaudiocompensationfilter.so \
     vendor/amazon/sloane/proprietary/lib64/libaudiocomponentengine.so:system/lib64/libaudiocomponentengine.so \
-    vendor/amazon/sloane/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
     vendor/amazon/sloane/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
     vendor/amazon/sloane/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
     vendor/amazon/sloane/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
@@ -207,7 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libhdmi.so:system/lib64/libhdmi.so \
     vendor/amazon/sloane/proprietary/lib64/libhdmiservice.so:system/lib64/libhdmiservice.so \
     vendor/amazon/sloane/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
-    vendor/amazon/sloane/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
     vendor/amazon/sloane/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
     vendor/amazon/sloane/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
     vendor/amazon/sloane/proprietary/lib64/libmsbc_mtk.so:system/lib64/libmsbc_mtk.so \
@@ -215,7 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
     vendor/amazon/sloane/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
     vendor/amazon/sloane/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
-    vendor/amazon/sloane/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
     vendor/amazon/sloane/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
     vendor/amazon/sloane/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
     vendor/amazon/sloane/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
@@ -295,4 +289,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/xbin/trapz:system/xbin/trapz
 
 PRODUCT_PACKAGES += \
-    libdpframework
+    libdpframework \
+    libnvram \
+    libaudiocustparam \
+    libion_mtk
