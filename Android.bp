@@ -3,10 +3,10 @@ cc_prebuilt_library_shared {
     vendor: true,
     target: {
 			android_arm: {
-                    srcs: ["proprietary/lib/libdpframework.so"],
+                    srcs: ["proprietary/vendor/lib/libdpframework.so"],
             },
 			android_arm64: {
-                    srcs: ["proprietary/lib64/libdpframework.so"],
+                    srcs: ["proprietary/vendor/lib64/libdpframework.so"],
              },
             },
            strip: {
@@ -19,10 +19,10 @@ cc_prebuilt_library_shared {
     vendor: true,
     target: {
 			android_arm: {
-                    srcs: ["proprietary/lib/libnvram.so"],
+                    srcs: ["proprietary/vendor/lib/libnvram.so"],
             },
 			android_arm64: {
-                    srcs: ["proprietary/lib64/libnvram.so"],
+                    srcs: ["proprietary/vendor/lib64/libnvram.so"],
             },
             },
            strip: {
@@ -35,10 +35,10 @@ cc_prebuilt_library_shared {
     vendor: true,
     target: {
             android_arm: {
-                    srcs: ["proprietary/lib/libaudiocustparam.so"],
+                    srcs: ["proprietary/vendor/lib/libaudiocustparam.so"],
             },
 			android_arm64: {
-                    srcs: ["proprietary/lib64/libaudiocustparam.so"],
+                    srcs: ["proprietary/vendor/lib64/libaudiocustparam.so"],
             },
             },
            strip: {
@@ -51,10 +51,10 @@ cc_prebuilt_library_shared {
     vendor: true,
     target: {
 			android_arm: {
-                    srcs: ["proprietary/lib/libion_mtk.so"],
+                    srcs: ["proprietary/vendor/lib/libion_mtk.so"],
             },
 			android_arm64: {
-                    srcs: ["proprietary/lib64/libion_mtk.so"],
+                    srcs: ["proprietary/vendor/lib64/libion_mtk.so"],
              },
             },
            strip: {
