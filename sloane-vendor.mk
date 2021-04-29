@@ -55,9 +55,9 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/etc/dhcpcd/dhcpcd-hooks/20-dns.conf:system/vendor/etc/dhcpcd/dhcpcd-hooks/20-dns.conf \
     vendor/amazon/sloane/proprietary/etc/dhcpcd/dhcpcd-hooks/95-configured:system/vendor/etc/dhcpcd/dhcpcd-hooks/95-configured \
     vendor/amazon/sloane/proprietary/etc/dhcpcd/dhcpcd-run-hooks:system/vendor/etc/dhcpcd/dhcpcd-run-hooks \
-    vendor/amazon/sloane/proprietary/etc/firmware/dvb-fe-xc5000-1.6.114.fw:system/vendor/etc/firmware/dvb-fe-xc5000-1.6.114.fw \
-    vendor/amazon/sloane/proprietary/etc/firmware/mt7662_firmware_e3_tvbox.bin:system/vendor/etc/firmware/mt7662_firmware_e3_tvbox.bin \
-    vendor/amazon/sloane/proprietary/etc/firmware/mt7662_patch_e3_hdr.bin:system/vendor/etc/firmware/mt7662_patch_e3_hdr.bin \
+    vendor/amazon/sloane/proprietary/etc/firmware/dvb-fe-xc5000-1.6.114.fw:system/etc/firmware/dvb-fe-xc5000-1.6.114.fw \
+    vendor/amazon/sloane/proprietary/etc/firmware/mt7662_firmware_e3_tvbox.bin:system/etc/firmware/mt7662_firmware_e3_tvbox.bin \
+    vendor/amazon/sloane/proprietary/etc/firmware/mt7662_patch_e3_hdr.bin:system/etc/firmware/mt7662_patch_e3_hdr.bin \
     vendor/amazon/sloane/proprietary/etc/init.fosflags.sh:system/vendor/etc/init.fosflags.sh \
     vendor/amazon/sloane/proprietary/etc/init.fosflags.sloane.sh:system/vendor/etc/init.fosflags.sloane.sh \
     vendor/amazon/sloane/proprietary/etc/leds.xml:system/vendor/etc/leds.xml \
