@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libMtkOmxAMRNBDec.so:system/vendor/lib/libMtkOmxAMRNBDec.so \
     vendor/amazon/sloane/proprietary/lib/libMtkOmxAMRWBDec.so:system/vendor/lib/libMtkOmxAMRWBDec.so \
     vendor/amazon/sloane/proprietary/lib/libMtkOmxAacEnc.so:system/vendor/lib/libMtkOmxAacEnc.so \
-    vendor/amazon/sloane/proprietary/lib/libMtkOmxAmrEnc.so:system/vendor/lxDib/libMtkOmxAmrEnc.so \
+    vendor/amazon/sloane/proprietary/lib/libMtkOmxAmrEnc.so:system/vendor/lib/libMtkOmxAmrEnc.so \
     vendor/amazon/sloane/proprietary/lib/libMtkOmxAwbEnc.so:system/vendor/lib/libMtkOmxAwbEnc.so \
     vendor/amazon/sloane/proprietary/lib/libMtkOmxCore.so:system/vendor/lib/libMtkOmxCore.so \
     vendor/amazon/sloane/proprietary/lib/libMtkOmxFlacDec.so:system/vendor/lib/libMtkOmxFlacDec.so \
