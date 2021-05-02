@@ -7,7 +7,7 @@ LOGCATTAG="main.$LOGNAME"
 DELAY=120
 LOOPSTILMETRICS=29 # Should send to metrics buffer every hour
 currentLoop=0
-IWPRIV=/system/xbin/iwpriv
+IWPRIV=/system/vendor/xbin/iwpriv
 
 if [ ! -x $IWPRIV ] ; then
 	exit

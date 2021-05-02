@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
 LOGNAME="wifi_gain"
-IWPRIV=/system/xbin/iwpriv
+IWPRIV=/system/vendor/xbin/iwpriv
 
 function set_gain_value ()
 {
