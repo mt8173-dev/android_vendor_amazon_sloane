@@ -1,5 +1,5 @@
 #!/system/bin/sh
-PATH=/sbin:/system/sbin:/system/bin:/system/xbin
+PATH=/sbin:/system/sbin:/system/bin:/system/xbin:/system/vendor/sbin:/system/vendor/bin:/system/vendor/xbin
 
 export FOS_FLAGS_ADB_ON=0x1
 export FOS_FLAGS_CONSOLE_ON=0x4

@@ -1,6 +1,6 @@
 #!/system/bin/sh
 
-PATH=/sbin:/system/sbin:/system/bin:/system/xbin
+PATH=/sbin:/system/sbin:/system/bin:/system/xbin:/system/vendor/sbin:/system/vendor/bin:/system/vendor/xbin
 
 # ensure any directories/files created are initially only
 # u+rwx, g+rw, o+r
