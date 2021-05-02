@@ -20,20 +20,20 @@ while IFS="," read board_id board_id_val \
 	eth_mac_addr eth_mac_addr_val \
 	device_type_id device_type_id_val
 do
-	/system/xbin/idme $board_id $board_id_val
-	/system/xbin/idme $serial $serial_val
-	/system/xbin/idme $mac_addr $mac_addr_val
-	/system/xbin/idme $mac_sec $mac_sec_val
-	/system/xbin/idme $bt_mac_addr $bt_mac_addr_val
-	/system/xbin/idme $product_name $product_name_val
-	/system/xbin/idme $productid $productid_val
-	/system/xbin/idme $productid2 $productid2_val
-	/system/xbin/idme $bootmode $bootmode_val
-	/system/xbin/idme $postmode $postmode_val
-	/system/xbin/idme $bootcount $bootcount_val
-	/system/xbin/idme $manufacturing $manufacturing_val
-	/system/xbin/idme $eth_mac_addr $eth_mac_addr_val
-	/system/xbin/idme $device_type_id $device_type_id_val
+	/system/vendor/bin/idme $board_id $board_id_val
+	/system/vendor/bin/idme $serial $serial_val
+	/system/vendor/bin/idme $mac_addr $mac_addr_val
+	/system/vendor/bin/idme $mac_sec $mac_sec_val
+	/system/vendor/bin/idme $bt_mac_addr $bt_mac_addr_val
+	/system/vendor/bin/idme $product_name $product_name_val
+	/system/vendor/bin/idme $productid $productid_val
+	/system/vendor/bin/idme $productid2 $productid2_val
+	/system/vendor/bin/idme $bootmode $bootmode_val
+	/system/vendor/bin/idme $postmode $postmode_val
+	/system/vendor/bin/idme $bootcount $bootcount_val
+	/system/vendor/bin/idme $manufacturing $manufacturing_val
+	/system/vendor/bin/idme $eth_mac_addr $eth_mac_addr_val
+	/system/vendor/bin/idme $device_type_id $device_type_id_val
 done < "$input"
 
 if [ -f $input ]; then
