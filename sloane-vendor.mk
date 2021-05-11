@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/etc/init.fosflags.sh:system/vendor/etc/init.fosflags.sh \
     vendor/amazon/sloane/proprietary/etc/init.fosflags.sloane.sh:system/vendor/etc/init.fosflags.sloane.sh \
     vendor/amazon/sloane/proprietary/etc/leds.xml:system/vendor/etc/leds.xml \
-    vendor/amazon/sloane/proprietary/etc/mixer_paths.xml:system/vendor/etc/mixer_paths.xml \
+    vendor/amazon/sloane/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/amazon/sloane/proprietary/etc/partition_permission.sh:system/vendor/etc/partition_permission.sh \
     vendor/amazon/sloane/proprietary/etc/ping_logger.sh:system/vendor/etc/ping_logger.sh \
     vendor/amazon/sloane/proprietary/etc/powervr.ini:system/vendor/etc/powervr.ini \
