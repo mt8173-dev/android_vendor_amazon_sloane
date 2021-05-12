@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/etc/Wireless/RT2870STA/SingleSKU_JP.dat:system/etc/Wireless/RT2870STA/SingleSKU_JP.dat \
     vendor/amazon/sloane/proprietary/etc/Wireless/RT2870STA/SingleSKU_US.dat:system/etc/Wireless/RT2870STA/SingleSKU_US.dat \
     vendor/amazon/sloane/proprietary/etc/Wireless/RT2870STA/SingleSKU_preload.dat:system/etc/Wireless/RT2870STA/SingleSKU_preload.dat \
-    vendor/amazon/sloane/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
+    vendor/amazon/sloane/proprietary/etc/audio_effects.xml:system/etc/audio_effects.xml \
     vendor/amazon/sloane/proprietary/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
     vendor/amazon/sloane/proprietary/etc/chronos.conf:system/vendor/etc/chronos.conf \
     vendor/amazon/sloane/proprietary/etc/dhcpcd/dhcpcd-hooks/20-dns.conf:system/vendor/etc/dhcpcd/dhcpcd-hooks/20-dns.conf \
@@ -244,7 +244,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/vendor/data/ttp/tecla-2013.rsa:system/vendor/data/ttp/tecla-2013.rsa \
     vendor/amazon/sloane/proprietary/vendor/data/ttp/tecla-2014.rsa:system/vendor/data/ttp/tecla-2014.rsa \
     vendor/amazon/sloane/proprietary/vendor/data/ttp/viber-voip.rsa:system/vendor/data/ttp/viber-voip.rsa \
-    vendor/amazon/sloane/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    vendor/amazon/sloane/proprietary/vendor/etc/audio_effects.xml:system/vendor/etc/audio_effects.xml \
     vendor/amazon/sloane/proprietary/vendor/etc/dolby/ds-default.xml:system/vendor/etc/dolby/ds-default.xml \
     vendor/amazon/sloane/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/amazon/sloane/proprietary/vendor/lib/egl/libEGL_POWERVR_ROGUE.so:system/vendor/lib/egl/libEGL_POWERVR_ROGUE.so \
