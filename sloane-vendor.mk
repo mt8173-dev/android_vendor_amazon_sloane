@@ -265,6 +265,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/amazon/sloane/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:system/vendor/lib/libstagefright_soft_ddpdec.so \
     vendor/amazon/sloane/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
+    vendor/amazon/sloane/proprietary/vendor/lib/libwifidiags.so:system/vendor/lib/libwifidiags.so \
+    vendor/amazon/sloane/proprietary/vendor/lib/libwifidiags_jniwrapper.so:system/vendor/lib/libwifidiags_jniwrapper.so \
     vendor/amazon/sloane/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/amazon/sloane/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/amazon/sloane/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
@@ -285,6 +287,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/vendor/lib64/libsrv_init.so:system/vendor/lib64/libsrv_init.so \
     vendor/amazon/sloane/proprietary/vendor/lib64/libsrv_um.so:system/vendor/lib64/libsrv_um.so \
     vendor/amazon/sloane/proprietary/vendor/lib64/libusc.so:system/vendor/lib64/libusc.so \
+    vendor/amazon/sloane/proprietary/vendor/lib64/libwifidiags.so:system/vendor/lib64/libwifidiags.so \
+    vendor/amazon/sloane/proprietary/vendor/lib64/libwifidiags_jniwrapper.so:system/vendor/lib64/libwifidiags_jniwrapper.so \
     vendor/amazon/sloane/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/amazon/sloane/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/amazon/sloane/proprietary/xbin/iwconfig:system/vendor/xbin/iwconfig \

@@ -119,8 +119,8 @@
         <component cat="1" fullSymbol="TRAPZ_PLAT_UI_AB" id="43" name="AppBuffer" symbol="AB"/>
         <component cat="1" fullSymbol="TRAPZ_PLAT_UI_FB" id="44" name="FrameBuffer" symbol="FB"/>
         <component cat="1" fullSymbol="TRAPZ_PLAT_UI_INPUT" id="45" name="Input" symbol="INPUT">
-          <trace file="frameworks/native/services/inputflinger/EventHub.cpp" id="0" name="GetInputEvent" symbol="GetInputEvent">
-            <description>Android System Server receives keypress event. extra1 = deviceID; extra2 = keycode; extra3 = 0 up  1 down  2 repeat. deviceID = 0 built in keyboard  -1 injected input.</description>
+          <trace file="frameworks/native/services/inputflinger/InputDispatcher.cpp" id="0" name="GetInputEvent" symbol="GetInputEvent">
+            <description>Android System Server receives keypress event. extra1 = deviceID; extra2 = keycode; extra3 = 0 up  1 down  2 repeat. deviceID = 0 is the built in keyboard. See 'linux/input.h' for list of all keycodes.</description>
           </trace>
           <trace file="frameworks/native/services/inputflinger/EventHub.cpp" id="1" name="GetInputEventPosition" symbol="GetInputEventPosition">
             <description>Android System Server receives positioning event. extra1 = deviceID; extra2 = 2 for REL  3 for ABS; extra3 = 0 if extra4 is an X  1 if extra4 is a Y; extra4 = X or Y value. deviceID = 0 is the built in keyboard. See 'linux/input.h' for list of all codes.</description>
