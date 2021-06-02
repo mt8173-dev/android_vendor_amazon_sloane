@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/bin/autobt:system/vendor/bin/autobt \
     vendor/amazon/sloane/proprietary/bin/devicetype_service:system/vendor/bin/devicetype_service \
     vendor/amazon/sloane/proprietary/bin/dmesg_log.sh:system/vendor/bin/dmesg_log.sh \
-    vendor/amazon/sloane/proprietary/bin/dhcpcd:system/vendor/bin/dhcpcd \
+    vendor/amazon/sloane/proprietary/bin/dhcpcd:system/bin/dhcpcd \
     vendor/amazon/sloane/proprietary/bin/dump-ramdump.sh:system/vendor/bin/dump-ramdump.sh \
     vendor/amazon/sloane/proprietary/bin/ext4_resize:system/vendor/bin/ext4_resize \
     vendor/amazon/sloane/proprietary/bin/guiext-server:system/vendor/bin/guiext-server \
@@ -52,9 +52,9 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/etc/audio_effects.xml:system/etc/audio_effects.xml \
     vendor/amazon/sloane/proprietary/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
     vendor/amazon/sloane/proprietary/etc/chronos.conf:system/vendor/etc/chronos.conf \
-    vendor/amazon/sloane/proprietary/etc/dhcpcd/dhcpcd-hooks/20-dns.conf:system/vendor/etc/dhcpcd/dhcpcd-hooks/20-dns.conf \
-    vendor/amazon/sloane/proprietary/etc/dhcpcd/dhcpcd-hooks/95-configured:system/vendor/etc/dhcpcd/dhcpcd-hooks/95-configured \
-    vendor/amazon/sloane/proprietary/etc/dhcpcd/dhcpcd-run-hooks:system/vendor/etc/dhcpcd/dhcpcd-run-hooks \
+    vendor/amazon/sloane/proprietary/etc/dhcpcd/dhcpcd-hooks/20-dns.conf:system/etc/dhcpcd/dhcpcd-hooks/20-dns.conf \
+    vendor/amazon/sloane/proprietary/etc/dhcpcd/dhcpcd-hooks/95-configured:system/etc/dhcpcd/dhcpcd-hooks/95-configured \
+    vendor/amazon/sloane/proprietary/etc/dhcpcd/dhcpcd-run-hooks:system/etc/dhcpcd/dhcpcd-run-hooks \
     vendor/amazon/sloane/proprietary/etc/firmware/dvb-fe-xc5000-1.6.114.fw:system/etc/firmware/dvb-fe-xc5000-1.6.114.fw \
     vendor/amazon/sloane/proprietary/etc/firmware/mt7662_firmware_e3_tvbox.bin:system/etc/firmware/mt7662_firmware_e3_tvbox.bin \
     vendor/amazon/sloane/proprietary/etc/firmware/mt7662_patch_e3_hdr.bin:system/etc/firmware/mt7662_patch_e3_hdr.bin \
