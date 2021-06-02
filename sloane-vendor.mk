@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/bin/nandread:system/vendor/bin/nandread \
     vendor/amazon/sloane/proprietary/bin/nvram_agent_binder:system/vendor/bin/nvram_agent_binder \
     vendor/amazon/sloane/proprietary/bin/nvram_daemon:system/vendor/bin/nvram_daemon \
-    vendor/amazon/sloane/proprietary/bin/pppd:system/vendor/bin/pppd \
+    vendor/amazon/sloane/proprietary/bin/pppd:system/bin/pppd \
     vendor/amazon/sloane/proprietary/bin/prog_idme.sh:system/vendor/bin/prog_idme.sh \
     vendor/amazon/sloane/proprietary/bin/rpmb_svc:system/vendor/bin/rpmb_svc \
     vendor/amazon/sloane/proprietary/bin/temperature_log.sh:system/vendor/bin/temperature_log.sh \
@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/etc/firmware/dvb-fe-xc5000-1.6.114.fw:system/etc/firmware/dvb-fe-xc5000-1.6.114.fw \
     vendor/amazon/sloane/proprietary/etc/firmware/mt7662_firmware_e3_tvbox.bin:system/etc/firmware/mt7662_firmware_e3_tvbox.bin \
     vendor/amazon/sloane/proprietary/etc/firmware/mt7662_patch_e3_hdr.bin:system/etc/firmware/mt7662_patch_e3_hdr.bin \
+    vendor/amazon/sloane/proprietary/etc/ppp/ip-up-vpn:system/etc/ip-up-vpn \
     vendor/amazon/sloane/proprietary/etc/init.fosflags.sh:system/vendor/etc/init.fosflags.sh \
     vendor/amazon/sloane/proprietary/etc/init.fosflags.sloane.sh:system/vendor/etc/init.fosflags.sloane.sh \
     vendor/amazon/sloane/proprietary/etc/leds.xml:system/vendor/etc/leds.xml \
