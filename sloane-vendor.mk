@@ -42,6 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/bin/temperature_log.sh:system/vendor/bin/temperature_log.sh \
     vendor/amazon/sloane/proprietary/bin/thermal_log.sh:system/vendor/bin/thermal_log.sh \
     vendor/amazon/sloane/proprietary/bin/wipe_fos_flags:system/vendor/bin/wipe_fos_flags \
+    vendor/amazon/sloane/proprietary/bin/wpa_cli:system/vendor/bin/wpa_cli \
+    vendor/amazon/sloane/proprietary/bin/wpa_supplicant:system/vendor/bin/wpa_supplicant \
     vendor/amazon/sloane/proprietary/etc/Wireless/RT2870STA/MT76x2STA.dat:system/etc/Wireless/RT2870STA/MT76x2STA.dat \
     vendor/amazon/sloane/proprietary/etc/Wireless/RT2870STA/SingleSKU.dat:system/etc/Wireless/RT2870STA/SingleSKU.dat \
     vendor/amazon/sloane/proprietary/etc/Wireless/RT2870STA/SingleSKU_AU.dat:system/etc/Wireless/RT2870STA/SingleSKU_AU.dat \
@@ -105,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/lib_uree_mtk_crypto.so:system/vendor/lib/lib_uree_mtk_crypto.so \
     vendor/amazon/sloane/proprietary/lib/lib_uree_mtk_modular_drm.so:system/vendor/lib/lib_uree_mtk_modular_drm.so \
     vendor/amazon/sloane/proprietary/lib/lib_uree_mtk_vdec_secure_al.so:system/vendor/lib/lib_uree_mtk_vdec_secure_al.so \
+    vendor/amazon/sloane/proprietary/lib/libusb.so:system/vendor/lib/libusb.so \
     vendor/amazon/sloane/proprietary/lib/libamazon_remotes.so:system/vendor/lib/libamazon_remotes.so \
     vendor/amazon/sloane/proprietary/lib/libamazondisplayservice.so:system/vendor/lib/libamazondisplayservice.so \
     vendor/amazon/sloane/proprietary/lib/libamazoninputservice.so:system/vendor/lib/libamazoninputservice.so \
@@ -121,6 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libbluetoothem_mtk.so:system/vendor/lib/libbluetoothem_mtk.so \
     vendor/amazon/sloane/proprietary/lib/libbwc.so:system/vendor/lib/libbwc.so \
     vendor/amazon/sloane/proprietary/lib/libcommon_time_client.so:system/vendor/lib/libcommon_time_client.so \
+    vendor/amazon/sloane/proprietary/lib/libcrypto-v22.so:system/lib/libcrypto-v22.so \
     vendor/amazon/sloane/proprietary/lib/libcustom_nvram.so:system/vendor/lib/libcustom_nvram.so \
     vendor/amazon/sloane/proprietary/lib/libcvsd_mtk.so:system/vendor/lib/libcvsd_mtk.so \
     vendor/amazon/sloane/proprietary/lib/libdeviceinfoservice.so:system/vendor/lib/libdeviceinfoservice.so \
@@ -150,6 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libpq_prot.so:system/vendor/lib/libpq_prot.so \
     vendor/amazon/sloane/proprietary/lib/libqservice.so:system/vendor/lib/libqservice.so \
     vendor/amazon/sloane/proprietary/lib/libspeech_enh_lib.so:system/vendor/lib/libspeech_enh_lib.so \
+    vendor/amazon/sloane/proprietary/lib/libssl-v22.so:system/lib/libssl-v22.so \
     vendor/amazon/sloane/proprietary/lib/libstagefright_hdcprx.so:system/vendor/lib/libstagefright_hdcprx.so \
     vendor/amazon/sloane/proprietary/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/amazon/sloane/proprietary/lib/libthermalservice.so:system/vendor/lib/libthermalservice.so \
@@ -162,6 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libvp9dec_sa.ca7.so:system/vendor/lib/libvp9dec_sa.ca7.so \
     vendor/amazon/sloane/proprietary/lib/libwebrtc_audio_preprocessing.so:system/vendor/lib/libwebrtc_audio_preprocessing.so \
     vendor/amazon/sloane/proprietary/lib/libwlfAmzn.so:system/vendor/lib/libwlfAmzn.so \
+    vendor/amazon/sloane/proprietary/lib/libwpa_client.so:system/vendor/lib/libwpa_client.so \
     vendor/amazon/sloane/proprietary/lib64/hw/amazon_serial.mt8173.so:system/vendor/lib64/hw/amazon_serial.mt8173.so \
     vendor/amazon/sloane/proprietary/lib64/hw/amzn_dha.mt8173.so:system/vendor/lib64/hw/amzn_dha.mt8173.so \
     vendor/amazon/sloane/proprietary/lib64/hw/amzn_drmprov.mt8173.so:system/vendor/lib64/hw/amzn_drmprov.mt8173.so \
@@ -181,6 +187,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/lib_uree_mtk_crypto.so:system/vendor/lib64/lib_uree_mtk_crypto.so \
     vendor/amazon/sloane/proprietary/lib64/lib_uree_mtk_modular_drm.so:system/vendor/lib64/lib_uree_mtk_modular_drm.so \
     vendor/amazon/sloane/proprietary/lib64/lib_uree_mtk_vdec_secure_al.so:system/vendor/lib64/lib_uree_mtk_vdec_secure_al.so \
+    vendor/amazon/sloane/proprietary/lib64/libusb.so:system/vendor/lib64/libusb.so \
     vendor/amazon/sloane/proprietary/lib64/libaed.so:system/vendor/lib64/libaed.so \
     vendor/amazon/sloane/proprietary/lib64/libamazon_remotes.so:system/vendor/lib64/libamazon_remotes.so \
     vendor/amazon/sloane/proprietary/lib64/libamazondisplayservice.so:system/vendor/lib64/libamazondisplayservice.so \
@@ -196,6 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libbluetoothem_mtk.so:system/vendor/lib64/libbluetoothem_mtk.so \
     vendor/amazon/sloane/proprietary/lib64/libbwc.so:system/vendor/lib64/libbwc.so \
     vendor/amazon/sloane/proprietary/lib64/libcommon_time_client.so:system/vendor/lib64/libcommon_time_client.so \
+    vendor/amazon/sloane/proprietary/lib64/libcrypto-v22.so:system/lib64/libcrypto-v22.so \
     vendor/amazon/sloane/proprietary/lib64/libcustom_nvram.so:system/vendor/lib64/libcustom_nvram.so \
     vendor/amazon/sloane/proprietary/lib64/libcvsd_mtk.so:system/vendor/lib64/libcvsd_mtk.so \
     vendor/amazon/sloane/proprietary/lib64/libdeviceinfoservice.so:system/vendor/lib64/libdeviceinfoservice.so \
@@ -222,6 +230,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libpq_prot.so:system/vendor/lib64/libpq_prot.so \
     vendor/amazon/sloane/proprietary/lib64/libqservice.so:system/vendor/lib64/libqservice.so \
     vendor/amazon/sloane/proprietary/lib64/libspeech_enh_lib.so:system/vendor/lib64/libspeech_enh_lib.so \
+    vendor/amazon/sloane/proprietary/lib64/libssl-v22.so:system/lib64/libssl-v22.so \
     vendor/amazon/sloane/proprietary/lib64/libstagefright_hdcprx.so:system/vendor/lib64/libstagefright_hdcprx.so \
     vendor/amazon/sloane/proprietary/lib64/libstlport.so:system/vendor/lib64/libstlport.so \
     vendor/amazon/sloane/proprietary/lib64/libthermalservice.so:system/vendor/lib64/libthermalservice.so \
@@ -231,6 +240,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libvcodecdrv.so:system/vendor/lib64/libvcodecdrv.so \
     vendor/amazon/sloane/proprietary/lib64/libwebrtc_audio_preprocessing.so:system/vendor/lib64/libwebrtc_audio_preprocessing.so \
     vendor/amazon/sloane/proprietary/lib64/libwlfAmzn.so:system/vendor/lib64/libwlfAmzn.so \
+    vendor/amazon/sloane/proprietary/lib64/libwpa_client.so:system/vendor/lib64/libwpa_client.so \
     vendor/amazon/sloane/proprietary/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so:system/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so \
     vendor/amazon/sloane/proprietary/vendor/bin/pvrdebug:system/vendor/bin/pvrdebug \
     vendor/amazon/sloane/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
